@@ -45,4 +45,9 @@
     color: #FFFFFF;
 }
 
+.menu{
+    &.open{
+        display:block;
+    }
+}
 /*colors #48887b #267393*/

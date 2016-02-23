@@ -7939,4 +7939,9 @@ button.close {
   color: #FFFFFF;
 }
 
+/* line 49, ../static/sass/style.scss */
+.menu.open {
+  display: block;
+}
+
 /*colors #48887b #267393*/
