@@ -1,0 +1,48 @@
+@import "bootstrap";
+
+#main-navbar ul#menu-nav > li > a{
+    color: #FFFFFF;
+}
+
+#dacomp_nav_top{
+    background-color: #267393;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.176);
+    padding: 5px;
+
+    .navbar-brand#link-home{
+        padding: 0;
+        img{
+            height: 40px;
+        }
+    }
+}
+
+.content{
+    padding-top: 50px;
+
+    .page{
+        height: 200px;
+        padding: 15px;
+    }
+    section {
+        margin-top: 30px;
+    }
+    .img_integrantes{
+        width: 100px;
+        height:100px;
+        display: inline-block;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+}
+.footer{
+    background-color: #48887b;
+    width: 100%;
+    min-height: 100px;
+    color: #FFFFFF;
+}
+
+/*colors #48887b #267393*/
