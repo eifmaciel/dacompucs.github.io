@@ -10,6 +10,6 @@ gem install sass -v 3.3.9
 
 compile:
 ------
-static: 
+static:  
 $ compass compile
 compiled file will be saved at css/style.css
