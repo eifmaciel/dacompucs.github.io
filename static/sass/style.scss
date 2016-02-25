@@ -1,17 +1,11 @@
 @import "bootstrap";
 @import  "variaveis";
 
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
-}
 body.dacomp-wrapper{
-    font-family: 'Ubuntu';
+    font-family: Ubuntu, sans-serif;
 
     h1, h2, h3, h4{
-        font-family: 'Ubuntu';
+        font-family:  Ubuntu, sans-serif;
         color: $dacomp-blue;
     }
 
