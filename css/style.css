@@ -7908,42 +7908,46 @@ body.dacomp-wrapper h2 {
 body.dacomp-wrapper #main-navbar ul#menu-nav > li > a {
   color: #FFFFFF;
 }
-/* line 26, ../static/sass/style.scss */
+/* line 24, ../static/sass/style.scss */
+body.dacomp-wrapper #main-navbar ul#menu-nav > li > a:hover {
+  opacity: 0.4;
+}
+/* line 29, ../static/sass/style.scss */
 body.dacomp-wrapper #dacomp_nav_top {
   background-color: #267393;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.176);
   padding: 5px;
 }
-/* line 31, ../static/sass/style.scss */
+/* line 34, ../static/sass/style.scss */
 body.dacomp-wrapper #dacomp_nav_top .navbar-brand#link-home {
   padding: 0;
 }
-/* line 33, ../static/sass/style.scss */
+/* line 36, ../static/sass/style.scss */
 body.dacomp-wrapper #dacomp_nav_top .navbar-brand#link-home img {
   height: 40px;
 }
-/* line 39, ../static/sass/style.scss */
+/* line 42, ../static/sass/style.scss */
 body.dacomp-wrapper .content {
   padding-top: 50px;
 }
-/* line 42, ../static/sass/style.scss */
+/* line 45, ../static/sass/style.scss */
 body.dacomp-wrapper .content .page {
   height: 200px;
   padding: 15px;
 }
-/* line 46, ../static/sass/style.scss */
+/* line 49, ../static/sass/style.scss */
 body.dacomp-wrapper .content .img_integrantes {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-/* line 50, ../static/sass/style.scss */
+/* line 53, ../static/sass/style.scss */
 body.dacomp-wrapper .content .img_integrantes img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-/* line 57, ../static/sass/style.scss */
+/* line 60, ../static/sass/style.scss */
 body.dacomp-wrapper .footer {
   background-color: #48887b;
   width: 100%;
@@ -7951,23 +7955,23 @@ body.dacomp-wrapper .footer {
   padding: 10px;
   text-align: center;
 }
-/* line 63, ../static/sass/style.scss */
+/* line 66, ../static/sass/style.scss */
 body.dacomp-wrapper .footer a {
   color: #FFFFFF;
 }
-/* line 66, ../static/sass/style.scss */
+/* line 69, ../static/sass/style.scss */
 body.dacomp-wrapper .footer > div:not(:last-child) {
   border-right: 1px solid #FFFFFF;
 }
-/* line 72, ../static/sass/style.scss */
+/* line 75, ../static/sass/style.scss */
 body.dacomp-wrapper .menu.open {
   display: block;
 }
-/* line 77, ../static/sass/style.scss */
+/* line 80, ../static/sass/style.scss */
 body.dacomp-wrapper .divider {
   height: 50px;
 }
-/* line 81, ../static/sass/style.scss */
+/* line 84, ../static/sass/style.scss */
 body.dacomp-wrapper #parallaxBar {
   height: 350px;
   background-color: #004c82;
@@ -7975,32 +7979,32 @@ body.dacomp-wrapper #parallaxBar {
   background-size: cover;
   color: #fff;
 }
-/* line 89, ../static/sass/style.scss */
+/* line 92, ../static/sass/style.scss */
 body.dacomp-wrapper .text-center {
   padding: 10px;
 }
-/* line 93, ../static/sass/style.scss */
+/* line 96, ../static/sass/style.scss */
 body.dacomp-wrapper .button-blue {
   background-color: #267393;
 }
-/* line 97, ../static/sass/style.scss */
+/* line 100, ../static/sass/style.scss */
 body.dacomp-wrapper .lead {
   color: #575252;
 }
-/* line 101, ../static/sass/style.scss */
+/* line 104, ../static/sass/style.scss */
 body.dacomp-wrapper .section {
   padding-top: 50px;
   margin-top: -50px;
 }
-/* line 106, ../static/sass/style.scss */
+/* line 109, ../static/sass/style.scss */
 body.dacomp-wrapper .repres {
   text-align: center;
 }
-/* line 110, ../static/sass/style.scss */
+/* line 113, ../static/sass/style.scss */
 body.dacomp-wrapper .events {
   margin: 0;
 }
-/* line 113, ../static/sass/style.scss */
+/* line 116, ../static/sass/style.scss */
 body.dacomp-wrapper .event {
   background: #fff;
   border: 1px solid #ccc;
@@ -8012,7 +8016,12 @@ body.dacomp-wrapper .event {
   line-height: 170px;
   padding: 0;
 }
-/* line 123, ../static/sass/style.scss */
+/* line 126, ../static/sass/style.scss */
 body.dacomp-wrapper .event img {
   width: 100%;
+}
+/* line 130, ../static/sass/style.scss */
+body.dacomp-wrapper #menu_open {
+  background-color: #FFFFFF;
+  color: #267393;
 }

@@ -2,6 +2,10 @@ $(document).on("click", "#menu_open", function(){
     $('#main-navbar').toggleClass('open');
 });
 
+$(document).on("click", "#menu-nav a", function(){
+    $('#main-navbar').removeClass('open');
+});
+
 $(document).ready(function() {
     $('.navbar a').on('click', function(event) {
         event.preventDefault();

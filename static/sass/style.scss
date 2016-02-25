@@ -21,6 +21,9 @@ body.dacomp-wrapper{
 
     #main-navbar ul#menu-nav > li > a{
         color: #FFFFFF;
+        &:hover{
+            opacity: 0.4;
+        }
     }
 
     #dacomp_nav_top{
@@ -123,6 +126,10 @@ body.dacomp-wrapper{
         img{
             width: 100%;
         }
+    }
+    #menu_open{
+        background-color: #FFFFFF;
+        color: $dacomp-blue;
     }
 }
 
