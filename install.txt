@@ -1,0 +1,15 @@
+Install compass using
+
+apt-get install ruby
+apt-get install ruby-dev
+gem install compass -v 1.0.0.alpha.20
+gem install bootstrap-sass -v 3.1.1.1
+gem install compass-core -v 1.0.0.alpha.20
+gem install compass-import-once -v 1.0.4
+gem install sass -v 3.3.9
+
+compile:
+------
+static:  
+$ compass compile
+compiled file will be saved at css/style.css
