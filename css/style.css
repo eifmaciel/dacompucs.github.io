@@ -7996,3 +7996,23 @@ body.dacomp-wrapper .section {
 body.dacomp-wrapper .repres {
   text-align: center;
 }
+/* line 110, ../static/sass/style.scss */
+body.dacomp-wrapper .events {
+  margin: 0;
+}
+/* line 113, ../static/sass/style.scss */
+body.dacomp-wrapper .event {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 170px;
+  padding: 0;
+}
+/* line 123, ../static/sass/style.scss */
+body.dacomp-wrapper .event img {
+  width: 100%;
+}
