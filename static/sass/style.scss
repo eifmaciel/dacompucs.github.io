@@ -1,11 +1,31 @@
 @import "bootstrap";
+@import  "variaveis";
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+}
+body{
+    font-family: 'Ubuntu';
+}
+
+h1, h2, h3, h4{
+    font-family: 'Ubuntu';
+    color: $dacomp-blue;
+}
+
+h2{
+   color: $dacomp-greem;
+}
 
 #main-navbar ul#menu-nav > li > a{
     color: #FFFFFF;
 }
 
 #dacomp_nav_top{
-    background-color: #267393;
+    background-color: $dacomp-blue;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.176);
     padding: 5px;
 
@@ -26,6 +46,10 @@
     }
     section {
         margin-top: 30px;
+        height:500px;
+        padding-top:50px;
+        padding-bottom:50px;
+        overflow:auto;
     }
     .img_integrantes{
         width: 100px;
@@ -39,10 +63,17 @@
     }
 }
 .footer{
-    background-color: #48887b;
+    background-color: $dacomp-greem;
     width: 100%;
-    min-height: 100px;
-    color: #FFFFFF;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    a{
+        color: #FFFFFF;
+    }
+    > div:not(:last-child){
+        border-right: 1px solid #FFFFFF;
+    }
 }
 
 .menu{
@@ -50,4 +81,23 @@
         display:block;
     }
 }
-/*colors #48887b #267393*/
+
+.divider {
+    height:50px;
+}
+
+#parallaxBar{
+    height:350px;
+    background-color:#004c82;
+    background: url(../img/parallax.jpg) 50% 0 fixed;
+    background-size:cover;
+    color:#fff;
+}
+
+.text-center{
+    padding: 10px;
+}
+
+.button-blue{
+    background-color: $dacomp-blue;
+}

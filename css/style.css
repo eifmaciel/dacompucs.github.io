@@ -7885,63 +7885,120 @@ button.close {
     display: none !important;
   }
 }
-/* line 3, ../static/sass/style.scss */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://example.com/fonts/ubuntu.woff) format("woff");
+}
+/* line 10, ../static/sass/style.scss */
+body {
+  font-family: 'Ubuntu';
+}
+
+/* line 14, ../static/sass/style.scss */
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu';
+  color: #267393;
+}
+
+/* line 19, ../static/sass/style.scss */
+h2 {
+  color: #48887b;
+}
+
+/* line 23, ../static/sass/style.scss */
 #main-navbar ul#menu-nav > li > a {
   color: #FFFFFF;
 }
 
-/* line 7, ../static/sass/style.scss */
+/* line 27, ../static/sass/style.scss */
 #dacomp_nav_top {
   background-color: #267393;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.176);
   padding: 5px;
 }
-/* line 12, ../static/sass/style.scss */
+/* line 32, ../static/sass/style.scss */
 #dacomp_nav_top .navbar-brand#link-home {
   padding: 0;
 }
-/* line 14, ../static/sass/style.scss */
+/* line 34, ../static/sass/style.scss */
 #dacomp_nav_top .navbar-brand#link-home img {
   height: 40px;
 }
 
-/* line 20, ../static/sass/style.scss */
+/* line 40, ../static/sass/style.scss */
 .content {
   padding-top: 50px;
 }
-/* line 23, ../static/sass/style.scss */
+/* line 43, ../static/sass/style.scss */
 .content .page {
   height: 200px;
   padding: 15px;
 }
-/* line 27, ../static/sass/style.scss */
+/* line 47, ../static/sass/style.scss */
 .content section {
   margin-top: 30px;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
 }
-/* line 30, ../static/sass/style.scss */
+/* line 54, ../static/sass/style.scss */
 .content .img_integrantes {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-/* line 34, ../static/sass/style.scss */
+/* line 58, ../static/sass/style.scss */
 .content .img_integrantes img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
 
-/* line 41, ../static/sass/style.scss */
+/* line 65, ../static/sass/style.scss */
 .footer {
   background-color: #48887b;
   width: 100%;
-  min-height: 100px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+/* line 71, ../static/sass/style.scss */
+.footer a {
   color: #FFFFFF;
 }
+/* line 74, ../static/sass/style.scss */
+.footer > div:not(:last-child) {
+  border-right: 1px solid #FFFFFF;
+}
 
-/* line 49, ../static/sass/style.scss */
+/* line 80, ../static/sass/style.scss */
 .menu.open {
   display: block;
 }
 
-/*colors #48887b #267393*/
+/* line 85, ../static/sass/style.scss */
+.divider {
+  height: 50px;
+}
+
+/* line 89, ../static/sass/style.scss */
+#parallaxBar {
+  height: 350px;
+  background-color: #004c82;
+  background: url(../img/parallax.jpg) 50% 0 fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* line 97, ../static/sass/style.scss */
+.text-center {
+  padding: 10px;
+}
+
+/* line 101, ../static/sass/style.scss */
+.button-blue {
+  background-color: #267393;
+}
